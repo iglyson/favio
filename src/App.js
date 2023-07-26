@@ -13,7 +13,7 @@ function App() {
   return (
     /*o react substitui classname por class pq class é palavra reservada do JS*/
     <>
-    <Cabecalho logo="logo192.png"titulo="Favio.io" subtitulo="o melhor gerenciador de favoritos da internet brasileira"/>
+    <Cabecalho logo="logo192.png"titulo="Favio.i" subtitulo="o melhor gerenciador de favoritos da internet brasileira"/>
     <Conteudo/>
     <Rodape/>
 
