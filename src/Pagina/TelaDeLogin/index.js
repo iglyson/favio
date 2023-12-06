@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import styles from './Conteudo.module.css'
+import styles from './TelaDeLogin.module.css'
 
-const Conteudo = () => {
+
+const TelaDeLogin = () => {
 
   const [email, setEmail] = useState('')
-  const [jpIMG, setJPIMG] = useState('')
   const [password, setPassword] = useState('')
   const [favoritos,setFavoritos]=useState([])
 
@@ -19,16 +19,14 @@ const Conteudo = () => {
   
 
   return (
-    <div className="container">
+    <div className={styles.container}>
       <div className="container-login">
         <div className="wrap-login">
           <form className="login-form">
             <span className="login-form-title"> Bem vindo </span>
 
             <span className="login-form-title">
-              <img src={jpIMG} alt="Jovem Programador" 
-              onChange={(e) => setJPIMG(e.target.value)}
-              />
+              <img className='logo' src='/netflix.png' alt="Netflix"/>
               
             </span>
 
@@ -71,4 +69,4 @@ const Conteudo = () => {
 
 
 
-export default Conteudo
+export default TelaDeLogin

@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <img className="logo"src="netflix.png"></img>
+      <img className="logo" alt='netflix' src="/netflix.png"></img>
       <span className="nav-logo">Seuflix</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">home</a>
-        <a href="/about">series</a>
-        <a href="/service">plano</a>
-        <a href="/contact">Contatos</a>
+        <Link to="/home">home</Link>
+        <Link to="/Linkbout">series</Link>
+        <Link to="/service">plano</Link>
+        <Link to="/contact">Contatos</Link>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

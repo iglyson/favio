@@ -1,11 +1,8 @@
 import "./App.css";
-import Navbar from "./Navbar/Navbar";
+import Rotas from "./routes";
+
 function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-    </div>
-  );
+  return <Rotas/>
 }
 
 export default App;

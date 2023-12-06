@@ -1,0 +1,57 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #da2727;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #da2727;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+  
+  
+  .redesSociais {
+    text-align: center;
+  }
+  
+  .redesSociais h2 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .redesSociais a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Cor das redes sociais */
+  }
+  
+  .logo img {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+  }
+  
+  .contato {
+    text-align: right;
+  }
+  
+  .contato h2 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .contato p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+}
